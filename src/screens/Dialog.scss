@@ -1,0 +1,33 @@
+$red: #FF1659;
+
+.box-dialog {
+    .btn-close {
+        color: #FF1659;
+        font-weight: bold;
+        background-color: white;
+        border: 1px solid #FF1659;
+        border-radius: 0;
+        padding: 2px;
+        width: 100px;
+    }
+    .btn-ok {
+        color: white; 
+        font-weight: bold;
+        background-color: #FF1659;
+        border: 1px solid #FF1659;
+        border-radius: 0;
+        padding: 2px;
+        width: 100px;
+
+        &button:active, &:hover {
+            box-shadow: 'none';
+            background-color: $red;
+            border-color: '#005cbf';
+            color: white
+        }
+    }
+    .icon-dialog {
+      display: flex;
+      justify-content: center;
+    }
+}
